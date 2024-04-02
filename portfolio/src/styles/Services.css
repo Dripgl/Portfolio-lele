@@ -1,0 +1,764 @@
+.chill {
+    background: linear-gradient(95.28deg, #9c83ff, #ff9051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span {
+    color: var(--color-firebrick);
+}
+
+.span1 {
+    color: var(--color-gray);
+}
+
+.i-do-code-container {
+    height: 39px;
+    width: 249px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 1;
+}
+
+.i-do-code-chill-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+}
+
+.dedicated-to-crafting,
+.passionate-software-engineer {
+    margin: 0;
+}
+
+.subtitle {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gainsboro);
+    z-index: 1;
+}
+
+.frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+}
+
+.contact-button1 {
+    height: 55px;
+    width: 187px;
+    z-index: 1;
+}
+
+.contact-me-button-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+}
+
+.frame-container,
+.web-h-r-company-logo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.frame-container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-15xl);
+}
+
+.web-h-r-company-logo {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-41xl) var(--padding-31xl) var(--padding-40xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-7xl-1);
+    color: var(--color-silver);
+    font-family: var(--font-poppins);
+}
+
+.about-me1,
+.explore-now {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.about-me1 {
+    align-self: stretch;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+}
+
+.explore-now {
+    letter-spacing: 0.6em;
+    font-weight: 500;
+    background: linear-gradient(95.28deg, #9c83ff, #ff9051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.about-me-parent,
+.passionate-engineer-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.passionate-engineer-label {
+    flex-direction: row;
+    padding: 0 var(--padding-26xl) 0 var(--padding-23xl);
+    margin-top: -3px;
+    font-size: var(--font-size-2xs);
+}
+
+.about-me-parent {
+    width: 233px;
+    flex-direction: column;
+}
+
+.projects-container-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+}
+
+.as-a-passionate {
+    font-weight: 500;
+}
+
+.as-a-passionate,
+.webhr {
+    font-family: var(--font-inter);
+}
+
+.my-expertise-centers {
+    font-weight: 500;
+}
+
+.as-a-passionate-software-engin {
+    margin: 0;
+}
+
+.blank-line,
+.with-a-fervor {
+    margin: 0;
+    font-weight: 500;
+}
+
+.as-a-passionate-container {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-mid);
+    color: var(--color-gainsboro);
+    z-index: 1;
+    font-family: inherit;
+}
+
+.projects-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-24xl);
+    gap: var(--gap-8xl);
+}
+
+.experience,
+.explore-now1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+.experience {
+    align-self: stretch;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.explore-now1 {
+    letter-spacing: 0.6em;
+    font-weight: 500;
+    background: linear-gradient(95.28deg, #9c83ff, #ff9051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.react-native-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-43xl) 0 var(--padding-45xl);
+    font-size: var(--font-size-2xs);
+}
+
+.experience-parent {
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.experience-container-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+}
+
+.webhr1 {
+    font-weight: 800;
+}
+
+.may-2022-,
+.webhr-software-container {
+    position: relative;
+    z-index: 1;
+}
+
+.may-2022- {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.may-2022-present-hyderabad-wrapper {
+    width: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-3xs);
+    color: var(--color-gainsboro);
+}
+
+.typescript-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.and-technologies,
+.blank-line1,
+.currently-i-am,
+.my-experience-with {
+    margin: 0;
+}
+
+.currently-i-am-container {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.frame-item {
+    height: 20px;
+    width: 69px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    border: 0.5px solid var(--color-mediumpurple);
+    box-sizing: border-box;
+    display: none;
+}
+
+.react-native {
+    width: 49px;
+    position: relative;
+    display: inline-block;
+    min-width: 49px;
+    z-index: 1;
+}
+
+.frame-inner,
+.rectangle-parent {
+    border-radius: var(--br-3xs);
+    border: 0.5px solid var(--color-mediumpurple);
+}
+
+.rectangle-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+    z-index: 1;
+}
+
+.frame-inner {
+    height: 20px;
+    width: 56px;
+    position: relative;
+    box-sizing: border-box;
+    display: none;
+}
+
+.react {
+    width: 22px;
+    position: relative;
+    display: inline-block;
+    min-width: 22px;
+    z-index: 1;
+}
+
+.rectangle-div,
+.rectangle-group {
+    border-radius: var(--br-3xs);
+    border: 0.5px solid var(--color-mediumpurple);
+}
+
+.rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-mid);
+    z-index: 1;
+}
+
+.rectangle-div {
+    height: 20px;
+    width: 69px;
+    position: relative;
+    background-color: var(--color-black);
+    box-sizing: border-box;
+    display: none;
+}
+
+.javascript {
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    min-width: 40px;
+    z-index: 1;
+}
+
+.frame-child1,
+.rectangle-container {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-black);
+    border: 0.5px solid var(--color-mediumpurple);
+}
+
+.rectangle-container {
+    flex: 0.8333;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-sm);
+    z-index: 1;
+}
+
+.frame-child1 {
+    height: 20px;
+    width: 69px;
+    position: relative;
+    box-sizing: border-box;
+    display: none;
+}
+
+.typescript {
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    min-width: 40px;
+    z-index: 1;
+}
+
+.frame-parent1,
+.group-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.group-div {
+    flex: 0.8333;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-black);
+    border: 0.5px solid var(--color-mediumpurple);
+    padding: var(--padding-8xs) var(--padding-sm);
+    z-index: 1;
+}
+
+.frame-parent1 {
+    width: 290px;
+    gap: var(--gap-4xs);
+    text-align: center;
+    font-size: var(--font-size-5xs);
+}
+
+.currently-i-am-working-on-web-parent,
+.java-script-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.currently-i-am-working-on-web-parent {
+    gap: var(--gap-lg);
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-gainsboro);
+}
+
+.java-script-label {
+    padding: 0 0 var(--padding-32xl);
+    gap: var(--gap-14xl);
+    font-size: var(--font-size-mid-6);
+}
+
+.explore-now2,
+.projects {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+.projects {
+    align-self: stretch;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.explore-now2 {
+    letter-spacing: 0.6em;
+    font-weight: 500;
+    background: linear-gradient(95.28deg, #9c83ff, #ff9051);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.explore-now-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-22xl) 0 var(--padding-28xl);
+    font-size: var(--font-size-2xs);
+}
+
+.projects-parent {
+    width: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.experience-container-child {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-mid);
+}
+
+.designed-a-modern,
+.webhr2 {
+    position: relative;
+    letter-spacing: -0.03em;
+    z-index: 1;
+}
+
+.webhr2 {
+    width: 58px;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 58px;
+}
+
+.designed-a-modern {
+    flex: 1;
+    font-weight: 500;
+}
+
+.verge-title,
+.web-h-r-title {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.verge-title {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-10xs);
+    text-align: left;
+    font-size: var(--font-size-7xs);
+    color: var(--color-gray);
+}
+
+.web-h-r-title {
+    flex-direction: column;
+    gap: var(--gap-10xs);
+}
+
+.developed-the-verge,
+.verge-systems {
+    position: relative;
+    letter-spacing: -0.03em;
+    z-index: 1;
+}
+
+.verge-systems {
+    width: 116px;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 116px;
+}
+
+.developed-the-verge {
+    font-weight: 500;
+}
+
+.payoasis-title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-9xs);
+    text-align: left;
+    font-size: var(--font-size-7xs);
+    color: var(--color-gray);
+}
+
+.react-stack {
+    flex-direction: column;
+    gap: var(--gap-11xs);
+}
+
+.current-job-title,
+.react-stack,
+.web-h-r-title-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.current-job-title {
+    flex-direction: row;
+    padding: 0 var(--padding-10xs);
+}
+
+.web-h-r-title-parent {
+    width: 193px;
+    flex-direction: column;
+    gap: var(--gap-40xl);
+}
+
+.developed-a-web,
+.hireside {
+    position: relative;
+    letter-spacing: -0.03em;
+    z-index: 1;
+}
+
+.hireside {
+    width: 65px;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 65px;
+}
+
+.developed-a-web {
+    align-self: stretch;
+    font-size: var(--font-size-7xs);
+    font-weight: 500;
+    color: var(--color-gray);
+    text-align: left;
+}
+
+.hire-side-logo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.designed-the-modern,
+.payoasis {
+    position: relative;
+    letter-spacing: -0.03em;
+    z-index: 1;
+}
+
+.payoasis {
+    width: 68px;
+    font-weight: 800;
+    display: inline-block;
+    min-width: 68px;
+}
+
+.designed-the-modern {
+    font-size: var(--font-size-7xs);
+    font-weight: 500;
+    color: var(--color-gray);
+    text-align: left;
+}
+
+.hire-side-logo-parent,
+.payoasis-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.hire-side-logo-parent {
+    width: 192px;
+    gap: var(--gap-41xl);
+}
+
+.web-h-r-info,
+.web-h-r-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.web-h-r-info {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.web-h-r-info-wrapper {
+    width: 570px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-6xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-base-2);
+}
+
+.experience-container {
+    width: 706px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-36xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-26xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1050px) {
+
+    .about-me1,
+    .experience,
+    .projects {
+        font-size: var(--font-size-17xl);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .frame-container {
+        gap: 17px 34px;
+    }
+
+    .web-h-r-company-logo {
+        padding-left: var(--padding-10xl);
+        padding-right: var(--padding-11xl);
+        box-sizing: border-box;
+    }
+
+    .typescript-label {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .java-script-label {
+        gap: 16px 33px;
+    }
+
+    .web-h-r-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .experience-container {
+        gap: 27px 55px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .i-do-code-container {
+        font-size: var(--font-size-2xl);
+    }
+
+    .about-me1,
+    .experience {
+        font-size: var(--font-size-8xl);
+    }
+
+    .react-native-label {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}

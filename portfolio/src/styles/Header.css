@@ -1,0 +1,194 @@
+/* General styles */
+.experience-container-wrapper,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.experience-container-wrapper {
+  padding: 0 var(--padding-10xl) 0 var(--padding-xl);
+  margin-top: -19px;
+}
+
+.frame-parent {
+  width: 1129px;
+  flex-direction: column;
+}
+
+.loosely-designed-in {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.and-tailwind-css {
+  margin: 0;
+}
+
+.loosely-designed-in-container {
+  width: 455px;
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.figma-icon {
+  width: 7.3px;
+  height: 11px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.visual-studio-code {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  margin-left: -353px;
+}
+
+.figma-workspace,
+.figma-workspace-wrapper {
+  width: 455px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.figma-workspace-wrapper {
+  width: 1129px;
+  justify-content: center;
+  padding: 0 2px 0 0;
+}
+
+.background-pattern-icon {
+  position: absolute;
+  top: -290px;
+  left: -253px;
+  width: 2608.9px;
+  height: 2608.9px;
+  object-fit: contain;
+}
+
+.logo-icon,
+.me-icon {
+  position: absolute;
+  z-index: 1;
+}
+
+.me-icon {
+  top: 198px;
+  left: 605px;
+  width: 231px;
+  height: 231px;
+  object-fit: cover;
+}
+
+.logo-icon {
+  top: 41.5px;
+  left: 121px;
+  width: 23.7px;
+  height: 26.4px;
+}
+
+.icon-sets,
+.image-2-icon {
+  position: absolute;
+  top: 1728px;
+  z-index: 1;
+}
+
+.image-2-icon {
+  left: 370px;
+  border-radius: 7.55px;
+  width: 126px;
+  height: 70.9px;
+  object-fit: cover;
+}
+
+.icon-sets {
+  left: 728px;
+}
+
+.icon-sets1,
+.icon-sets2,
+.vector-icon {
+  position: absolute;
+  top: 1822px;
+  left: 370px;
+  z-index: 1;
+}
+
+.icon-sets2,
+.vector-icon {
+  left: 728px;
+}
+
+.vector-icon {
+  top: 2115px;
+  left: 637px;
+  width: 15.4px;
+  height: 15px;
+}
+
+.frame-child,
+.icon-sets3,
+.simple-iconsx {
+  position: absolute;
+  top: 2115.8px;
+  left: 691.3px;
+  width: 13.4px;
+  height: 13.4px;
+  z-index: 1;
+}
+
+.icon-sets3,
+.simple-iconsx {
+  top: 2115.2px;
+  left: 743.5px;
+  width: 14.6px;
+  height: 14.6px;
+}
+
+.simple-iconsx {
+  left: 796.9px;
+}
+
+.background-pattern-parent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.portfolio {
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 35px var(--padding-xl) 94px var(--padding-10xl);
+  gap: 287px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gainsboro);
+  font-family: var(--font-inter);
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  .portfolio {
+    gap: 143px 287px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .portfolio {
+    gap: 72px 287px;
+  }
+}
