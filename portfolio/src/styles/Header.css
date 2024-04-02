@@ -77,35 +77,13 @@
   z-index: 1;
 }
 
-.me-icon {
-  top: 198px;
-  left: 605px;
-  width: 231px;
-  height: 231px;
-  object-fit: cover;
-}
 
 .logo-icon {
   top: 41.5px;
-  left: 121px;
-  width: 23.7px;
-  height: 26.4px;
+  width: 30%;
+  height: auto;
 }
 
-.icon-sets,
-.image-2-icon {
-  position: absolute;
-  top: 1728px;
-  z-index: 1;
-}
-
-.image-2-icon {
-  left: 370px;
-  border-radius: 7.55px;
-  width: 126px;
-  height: 70.9px;
-  object-fit: cover;
-}
 
 .icon-sets {
   left: 728px;
