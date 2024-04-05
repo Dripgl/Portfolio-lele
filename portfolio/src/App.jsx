@@ -1,12 +1,12 @@
 import './App.css';
 import Particles from './components/ParticlesContainer';
-import Header from './page/Header';
+import Principale from './page/Principale';
 
 function App() {
   return (
     <div className="App">
-      <Particles/>
-     <Header/>
+      <Particles />
+      <Principale />
     </div>
   );
 }

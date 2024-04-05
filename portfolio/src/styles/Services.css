@@ -12,13 +12,11 @@
     color: var(--color-gray);
 }
 
-.i-do-code-container {
-    height: 39px;
-    width: 249px;
-    position: relative;
+.ido_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
-    display: inline-block;
-    z-index: 1;
 }
 
 .i-do-code-chill-wrapper {

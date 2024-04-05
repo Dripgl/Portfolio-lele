@@ -1,18 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-import "../styles/ParticlesContainer.css"
+import { loadSlim } from "@tsparticles/slim";
+import "../styles/ParticlesContainer.css";
 
 const ParticlesContainer = () => {
   const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-    
       await loadSlim(engine);
-     
     }).then(() => {
       setInit(true);
     });
@@ -26,31 +22,10 @@ const ParticlesContainer = () => {
     () => ({
       background: {
         color: {
-          value: "#00B6EC",
+          value: "#181818",
         },
       },
-      fpsLimit: 40,
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
-          onHover: {
-            enable: true,
-            mode: "repulse",
-          },
-        },
-        modes: {
-          push: {
-            quantity: 4,
-          },
-          repulse: {
-            distance: 200,
-            duration: 0.4,
-          },
-        },
-      },
+      fpsLimit: 60,
       particles: {
         color: {
           value: "#FFFFFF",
@@ -58,7 +33,7 @@ const ParticlesContainer = () => {
         links: {
           color: "#FFFFFF",
           distance: 150,
-          enable: true,
+          enable: false, // Disabilita i collegamenti tra le particelle
           opacity: 0.5,
           width: 1,
         },
@@ -66,55 +41,58 @@ const ParticlesContainer = () => {
           direction: "none",
           enable: true,
           outModes: {
-            default: "bounce",
+            default: "out",
           },
-          random: false,
-          speed: 6,
+          random: true,
+          speed: 1, // Velocità di movimento delle particelle
           straight: false,
         },
         number: {
           density: {
             enable: true,
+            value_area: 800, // Area in cui le particelle si distribuiscono
           },
-          value: 80,
+          value: 100, // Numero totale di particelle
         },
         opacity: {
-          value: 1.5,
+          value: 0.5, // Opacità delle particelle
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 2, max: 10 }, // Dimensione dei cerchi trasparenti
+          animation: {
+            enable: true, // Abilita l'animazione delle dimensioni
+            speed: 1, // Velocità di animazione delle dimensioni
+            sync: true,
+          },
         },
       },
       detectRetina: true,
     }),
-    [],
+    []
   );
 
   if (init) {
     return (
-      <div>
-        {init && (
-        <div className="particles-container">
-          <Particles
-            id="tsparticles"
-            className="particles_imp"
-            particlesLoaded={particlesLoaded}
-            options={options}
-          />
-          <div className="content-above-particles">
-            {/* Contenuto da visualizzare sopra il background delle particelle */}
-            <img src="path_to_your_image" alt="Your Image" />
-            {/* Altri elementi aggiunti sopra il background delle particelle */}
-          </div>
+      <div className="particles-container">
+        <Particles
+          id="tsparticles"
+          className="particles_imp"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+        <div className="content-above-particles">
+          {/* Contenuto da visualizzare sopra il background delle particelle */}
+          <img src="path_to_your_image" alt="Your Image" />
+          {/* Altri elementi aggiunti sopra il background delle particelle */}
         </div>
-      )} 
       </div>
     );
+  } else {
+    return null;
   }
-
 };
 
 export default ParticlesContainer;

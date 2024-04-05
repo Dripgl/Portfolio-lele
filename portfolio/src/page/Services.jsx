@@ -8,10 +8,9 @@ function Services() {
                 <div className="frame-container">
                     <div className="frame-div">
                         <div className="i-do-code-chill-wrapper">
-                            <div className="i-do-code-container">
+                            <div className="ido_container">
                                 <span>{`I do Code & `}</span>
                                 <span className="chill">Chill</span>
-                                <span className="span">{` `}</span>
                                 <span className="span1">🍿</span>
                             </div>
                         </div>
@@ -90,7 +89,7 @@ function Services() {
                 </div>
             </div>
 
-            
+
             <div className="experience-container-child">
                 <div className="projects-parent">
                     <h1 className="projects">Projects</h1>
