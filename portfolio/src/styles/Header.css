@@ -25,7 +25,7 @@
 .span1 {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 3vw;
   font-size: 25px;
   padding-left: 7px;
@@ -38,6 +38,47 @@
   flex-direction: row;
   color: white;
 }
+
+.contact_button {
+  padding-top: 30px;
+}
+
+.projects_container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.frame-parent1 {
+  width: 290px;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-5xs);
+}
+
+.frame-child1,
+.rectangle-container {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  border: 0.5px solid var(--color-mediumpurple);
+}
+
+.rectangle-container {
+  flex: 0.8333;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-sm);
+  z-index: 1;
+}
+
+.about_me1 {
+  color: white;
+}
+
 
 /* Media queries */
 @media screen and (max-width: 1200px) {
