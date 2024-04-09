@@ -25,3 +25,12 @@
     height: 250px;
     width: 250px;
 }
+
+.description_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 200px;
+}

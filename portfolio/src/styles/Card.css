@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  display: flex;
-  align-items: center;  
-  min-height: 100vh;
-  background-color: #ddd;
-} */
-
 .card-container {
   perspective: 50em;
   
@@ -57,5 +50,11 @@
   
   &:last-child {
     box-shadow: 0 0 0.5em #000d inset, 0 0 5px #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: calc(100% - 80px);
   }
 }
