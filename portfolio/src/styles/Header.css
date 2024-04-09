@@ -1,25 +1,25 @@
-/* General styles */
-/* .portfolio {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  letter-spacing: normal;
-} */
-
-.container_home{
+.container_home {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   letter-spacing: normal;
+
 }
 
-.chill {
-  background: linear-gradient(95.28deg, #9c83ff, #ff9051);
+.ido_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+}
+
+.special {
+  background-image: linear-gradient(95.28deg, #9c83ff, #ff9051);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* necessario per nascondere il testo */
   padding-left: 7px;
 }
 
@@ -32,52 +32,18 @@
   padding-left: 7px;
 }
 
-.ido_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  color: white;
-}
-
 .contact_button {
   padding-top: 30px;
 }
 
-.projects_container {
-  align-self: stretch;
+.subtitle {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  padding: 20px;
-}
-
-.frame-parent1 {
-  width: 290px;
-  gap: var(--gap-4xs);
-  text-align: center;
-  font-size: var(--font-size-5xs);
-}
-
-.frame-child1,
-.rectangle-container {
-  border-radius: var(--br-3xs);
-  background-color: var(--color-black);
-  border: 0.5px solid var(--color-mediumpurple);
-}
-
-.rectangle-container {
-  flex: 0.8333;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-8xs) var(--padding-sm);
-  z-index: 1;
-}
-
-.title_section {
+  align-items: center;
+  flex-direction: column;
   color: white;
+  padding-top: 15px;
+  font-size: 17px;
 }
 
 
@@ -93,3 +59,25 @@
     gap: 72px 287px;
   }
 }
+
+
+/* .projects_container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} 
+
+.section{
+  background-image: linear-gradient(95.28deg, #9c83ff, #ff9051);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
